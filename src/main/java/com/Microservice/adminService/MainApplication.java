@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableAdminServer
+@ComponentScan(basePackages = {"com.Microservice.adminService"})
 public class MainApplication {
 
 	public static void main(String[] args) {
